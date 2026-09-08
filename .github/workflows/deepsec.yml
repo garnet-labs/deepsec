@@ -47,7 +47,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
         working-directory: .deepsec
 
-      - run: npm install -g @anthropic-ai/claude-code
+      - run: npm install -g @anthropic-ai/claude-code@2.1.263
 
       # Run from .deepsec/ so the CLI loads .deepsec/deepsec.config.ts
       # (custom matchers + project list) and reads/writes the committed
