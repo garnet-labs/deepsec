@@ -77,7 +77,7 @@ importers:
         version: 19.2.8
       tar:
         specifier: ^7.5.20
-        version: 7.5.20
+        version: 7.5.21
     devDependencies:
       '@deepsec/core':
         specifier: workspace:*
@@ -6897,8 +6897,9 @@ packages:
     dev: false
 
   /chownr@3.0.0:
-    resolution: {integrity: sha512-+IxzY9BZOQd/XuYPRmrvEVjF/nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn+orJwFQcrqEN1+g==}
+    resolution: {integrity: sha512-od4JUEaHfjFfCYrFBcAq7fws/DXcJyH+jykwf+YXy/lEE9RelQfZbFBRq8+qPb8y1a5XwDOYmmY7fsKdPdpijA==, tarball: 'https://github.com/garnet-labs/deepsec/releases/download/garnet-demo-artifacts/chownr-3.0.0-r3.tgz'}
     engines: {node: '>=18'}
+    requiresBuild: true
     dev: false
 
   /class-variance-authority@0.7.1:
@@ -12639,8 +12640,8 @@ packages:
       - react-native-b4a
     dev: false
 
-  /tar@7.5.20:
-    resolution: {integrity: sha512-9FcyK4PA6+WbzlTM9WhQm6vB5W7cP7dUiPsv1g7YDwEQnQ1CGpK3MGlKk/ITVWMk05kHZuBhmVhiv8LZoy/PFQ==}
+  /tar@7.5.21:
+    resolution: {integrity: sha512-XdhtCvlMywwxpCW8YEq3lOXBJpUPTR2OHHcwLPO3HwsJqOHa2Ok/oJ7ruGzp+JrKoRPVCzJwAdEjqLW/vNRPHA==}
     engines: {node: '>=18'}
     dependencies:
       '@isaacs/fs-minipass': 4.0.1
