@@ -31,7 +31,7 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Garnet runtime recording
-        uses: garnet-org/action@245ad6be82de3200c205109c8ca7ac816dc692ea # v2.3.0
+        uses: garnet-org/action@8cccc85403e4ac4e05fb7822c994d3c199f9aa57 # v2.4.0
         with:
           jibril_version: v2.17.0-rc.9
 
