@@ -27,7 +27,7 @@ samples/               Copy-paste starting points for new users
 ```bash
 pnpm install
 pnpm test               # all packages, including e2e
-pnpm test:unit          # excludes e2e
+pnpm test:unit          # unit suites only, excludes e2e
 pnpm -r build           # tsc across all workspaces (typecheck)
 pnpm lint               # biome check
 pnpm lint:fix           # biome check --write
